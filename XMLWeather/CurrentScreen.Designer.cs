@@ -50,11 +50,11 @@
             // cityOutput
             // 
             this.cityOutput.BackColor = System.Drawing.Color.Transparent;
-            this.cityOutput.Font = new System.Drawing.Font("Baskerville Old Face", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cityOutput.Font = new System.Drawing.Font("Baskerville Old Face", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cityOutput.ForeColor = System.Drawing.Color.White;
-            this.cityOutput.Location = new System.Drawing.Point(71, 108);
+            this.cityOutput.Location = new System.Drawing.Point(66, 97);
             this.cityOutput.Name = "cityOutput";
-            this.cityOutput.Size = new System.Drawing.Size(71, 23);
+            this.cityOutput.Size = new System.Drawing.Size(106, 23);
             this.cityOutput.TabIndex = 22;
             this.cityOutput.Text = "City";
             this.cityOutput.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -100,7 +100,7 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(21, 14);
+            this.label3.Location = new System.Drawing.Point(19, 29);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 28);
             this.label3.TabIndex = 40;
@@ -111,7 +111,7 @@
             this.forecastLabel.BackColor = System.Drawing.Color.Transparent;
             this.forecastLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.forecastLabel.ForeColor = System.Drawing.Color.White;
-            this.forecastLabel.Location = new System.Drawing.Point(141, 14);
+            this.forecastLabel.Location = new System.Drawing.Point(139, 29);
             this.forecastLabel.Name = "forecastLabel";
             this.forecastLabel.Size = new System.Drawing.Size(83, 28);
             this.forecastLabel.TabIndex = 41;
@@ -132,10 +132,11 @@
             // currentDateOutput
             // 
             this.currentDateOutput.BackColor = System.Drawing.Color.Transparent;
+            this.currentDateOutput.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.currentDateOutput.ForeColor = System.Drawing.Color.White;
-            this.currentDateOutput.Location = new System.Drawing.Point(87, 0);
+            this.currentDateOutput.Location = new System.Drawing.Point(67, 15);
             this.currentDateOutput.Name = "currentDateOutput";
-            this.currentDateOutput.Size = new System.Drawing.Size(71, 14);
+            this.currentDateOutput.Size = new System.Drawing.Size(106, 14);
             this.currentDateOutput.TabIndex = 43;
             this.currentDateOutput.Text = "current date";
             // 
@@ -225,14 +226,14 @@
             // 
             // citySearchImput
             // 
-            this.citySearchImput.Location = new System.Drawing.Point(24, 55);
+            this.citySearchImput.Location = new System.Drawing.Point(22, 70);
             this.citySearchImput.Name = "citySearchImput";
             this.citySearchImput.Size = new System.Drawing.Size(115, 20);
             this.citySearchImput.TabIndex = 51;
             // 
             // citySearchButton
             // 
-            this.citySearchButton.Location = new System.Drawing.Point(166, 55);
+            this.citySearchButton.Location = new System.Drawing.Point(164, 70);
             this.citySearchButton.Name = "citySearchButton";
             this.citySearchButton.Size = new System.Drawing.Size(57, 19);
             this.citySearchButton.TabIndex = 52;

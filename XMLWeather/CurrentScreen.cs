@@ -56,11 +56,19 @@ namespace XMLWeather
 
         private void citySearchButton_Click(object sender, EventArgs e)
         {
-            Form1.days.Clear();
-            Form1.something = citySearchImput.Text;
-            Form1.ExtractForecast();
-            Form1.ExtractCurrent();
-            DisplayCurrent();
+            try
+            {
+                Form1.days.Clear();
+                Form1.something = citySearchImput.Text;
+                Form1.ExtractForecast();
+                Form1.ExtractCurrent();
+                DisplayCurrent();
+            }
+            catch
+            {
+                citySearchImput.Text = "ERROR";
+            }
+           
 
             Refresh();
         }
